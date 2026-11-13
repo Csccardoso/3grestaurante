@@ -1,0 +1,34 @@
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# IDEs e Editores
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Node.js / Next.js (Frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Java / Spring Boot / Maven (Backend)
+backend/target/
+backend/build/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/*.jar
+backend/*.war
+
+# Variáveis de Ambiente & Ficheiros Sensíveis
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
