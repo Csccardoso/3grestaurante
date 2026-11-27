@@ -8,7 +8,7 @@ export default function HomePage() {
   const { language, t } = useLanguage();
 
   const welcomePrefix = {
-    pt: 'Bem-vindo ao',
+    pt: 'Bem-vindo à',
     en: 'Welcome to',
     fr: 'Bienvenue chez',
     nl: 'Welkom bij',
@@ -84,7 +84,7 @@ export default function HomePage() {
             <span className="text-xs font-bold uppercase tracking-widest text-amber-400">03</span>
             <h2 className="mt-2 text-lg font-bold text-stone-100">{t('navReserve')}</h2>
             <p className="mt-2 text-sm text-stone-300">
-              Escolha o dia e hora em intervalos de 15 minutos e acompanhe a sua reserva online.
+              Escolha o dia e hora e acompanhe a sua reserva online.
             </p>
           </div>
         </div>

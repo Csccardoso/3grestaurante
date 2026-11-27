@@ -539,7 +539,7 @@ export default function ReservasPage() {
         onClick={() => setPartySize((prev) => Math.min(16, prev + 1))}
         disabled={partySize >= 16}
         className="flex h-9 w-9 items-center justify-center rounded-lg border border-stone-700 bg-stone-900 text-lg font-bold text-stone-100 transition hover:border-amber-400 disabled:opacity-30"
-      >
+    >
         +
       </button>
     </div>
